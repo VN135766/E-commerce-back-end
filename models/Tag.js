@@ -6,7 +6,6 @@ class Tag extends Model {}
 
 Tag.init(
   {
-    // define columns no need for id column sinc it will auto generate 
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,

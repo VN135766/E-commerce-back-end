@@ -6,7 +6,6 @@ class ProductTag extends Model {}
 
 ProductTag.init(
   {
-    // define columns don't need the id column since it will auto generate
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -27,7 +26,6 @@ ProductTag.init(
         key: 'id'
       }
     }
-
   },
   {
     sequelize,
